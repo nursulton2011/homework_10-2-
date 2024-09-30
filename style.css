@@ -1,0 +1,764 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: "TT Hoves", sans-serif;
+    color: #222;
+}
+section {
+    padding: 0 calc(24px + (120 - 24)*((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(60px + (160 - 60)*((100vw - 375px) / (1280 - 375)));
+}
+.first {
+    padding-top: 40px;
+    background-image: url('./image/html_css_js\ 1.png');
+    background-repeat: no-repeat;
+    background-position: top 20px right 40px;
+    background-size: 30%;
+}
+.logo {
+    padding-top: 20px;
+    height: 41px;
+}
+.courseInfo {
+    display: flex;
+    gap: 30px 160px;
+    flex-wrap: wrap;
+    margin-top: calc(28px + (85 - 28)*((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(48px + (76 - 48)*((100vw - 375px) / (1280 - 375)));
+}
+.courseData {
+    font-size: 21px;
+    line-height: 140%;
+}
+.value {
+    font-weight: 700;
+}
+h1 {
+    font-family: 'Chava', sans-serif;
+    font-size: calc(42px + (80 - 42)*((100vw - 375px) / (1280 - 375)));
+    line-height: 110%;
+}
+p {
+    margin-top: calc(20px + (40 - 20)*((100vw - 375px) / (1280 - 375)));
+    font-size: calc(18px + (27 - 18)*((100vw - 375px) / (1280 - 375)));
+    font-weight: 300;
+    line-height: 140%;  
+}
+.cta {
+    display: flex;
+    margin-top: 20px;
+    gap: 20px 30px;
+    flex-wrap: wrap;
+}
+button {
+    width: 328px;
+    height: 61px;
+    padding: 20px 0px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 117%;
+}
+button.purple {
+    background-color: #6E3ABA;
+    color: white;
+    border: 1px solid #6E3ABA;
+}
+button.white {
+    background-color: white;
+    color: #6E3ABA;
+    border: 1px solid #6E3ABA;
+}
+
+.people {
+    font-family: 'TT Hoves';
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 37.8px;
+   } 
+.peoples {
+     display: flex;
+     flex-wrap: wrap;
+     margin-top:  40px; 
+     font-size: calc(18px + (27 - 18) * ((110vw - 375px) / (1280 - 375))); 
+ } 
+     
+ .blok1 {
+     width: calc(328px +(450 - 328)*((100vw - 375px) /(1280 - 375))); 
+     height: calc(350px +(506 - 350)*((100vw - 375px) /(1280 - 375)));
+     font-size: calc(18px +(27 - 18)*((100vw - 375px) /(1280 - 375)));
+     line-height: 140%;
+     margin-top: calc(40px + (90 - 40) * ((110vw - 375px) / (1280 - 375)));
+     margin-left: 120px;
+ }
+ .blok2 {
+    width: calc(328px +(450 - 328)*((100vw - 375px) /(1280 - 375))); 
+    height: calc(350px +(468 - 350)*((100vw - 375px) /(1280 - 375)));
+    font-size: calc(18px +(27 - 18)*((100vw - 375px) /(1280 - 375)));
+    line-height: 140%;
+    margin-left: 70px;
+    margin-top: calc(40px + (90 - 40) * ((110vw - 375px) / (1280 - 375))) ;
+    margin-left:  70px;
+}
+.blok3 {
+    width: calc(328px +(432 - 328)*((100vw - 375px) /(1280 - 375))); 
+    height: calc(325px +(468 - 325)*((100vw - 375px) /(1280 - 375)));
+    font-size: calc(18px +(27 - 18)*((100vw - 375px) /(1280 - 375)));
+    line-height: 140%;
+    margin-top: calc(40px + (90 - 40) * ((110vw - 375px) / (1280 - 375)));
+    margin-left: 100px;
+}
+.blok4 {
+    width: calc(328px +(477 - 328)*((100vw - 375px) /(1280 - 375))); 
+    height: calc(328px +(506 - 375)*((100vw - 375px) /(1280 - 375)));
+    font-size: calc(18px +(27 - 18)*((100vw - 375px) /(1280 - 375)));
+    line-height: 140%;
+    margin-top: calc(40px + (90 - 40) * ((110vw - 375px) / (1280 - 375)));
+    margin-left:  60px;
+}
+.blok1 p{
+    width: 450px/*calc(328px +(450 - 328)*((100vw - 375px) /(1280 - 375)))*/;
+    height: 228px/*calc(125px +(228 - 125)*((100vw - 375px) /(1280 - 375)))*/;
+}
+.blok2 p{
+    width: 450px/*calc(328px +(450 - 328)*((100vw - 375px) /(1280 - 375)))*/;
+    height: 190px/*calc(125px +(190 - 125)*((100vw - 375px) /(1280 - 375)))*/;
+}
+.blok3 p{
+    width: 432px/*calc(328px +(432 - 328)*((100vw - 375px) /(1280 - 375)))*/;
+    height: 152px/*calc(100px +(152 - 100)*((100vw - 375px) /(1280 - 375)))*/;
+}
+.blok4 p{
+    width: 477px/*calc(328px +(477 - 328)*((100vw - 375px) /(1280 - 375)))*/;
+    height: 190px/*calc(125px +(190 - 125)*((100vw - 375px) /(1280 - 375)))*/;
+}
+.blok1 h2{
+    width: 420px;
+    height: 38px;
+}
+.blok2 h2{
+    width: 369px;
+    height: 38px;
+}
+.blok3 h2{
+    width: 318px;
+    height: 76px;
+}
+.blok4 h2{
+    width: 300px;
+    height: 35px;
+}
+     
+ 
+ .people img {
+    margin: 52px;
+    max-width: 100%;
+ }
+     
+ h2 {
+ 
+   margin-top: 100px;
+   font-size: calc(34px + (58 - 34) * ((110vw - 375px) / (1280 - 375)));
+   line-height: 110%;
+   font-weight: 500;
+
+   
+  }
+.description h2{
+    width: calc(328px + (769 - 328) * ((110vw - 375px) / (1280 - 375)));
+    height: calc(80px + (136 - 80) * ((110vw - 375px) / (1280 - 375)));
+    font-family: 'TT Hoves';
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 68.32px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+.saleContainer {
+    background-color: #6E3ABA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: calc(4.4vw + 23px) 0 calc(5.3vw + 20px);
+}
+
+.saleContainer h3 {
+    color: white;
+    font-size: calc(2vw + 26.5px);
+    margin-bottom: calc(4.1vw + 4.7px);
+}
+.time {
+    display: flex;
+    gap: 85px;
+    margin-bottom: calc(4vw + 6px);
+}
+.date {
+    font-size: calc(12.6vw + 12.8px);
+    font-family:"Chava", sans-serif;
+}
+.timeCard span {
+    text-align: center;
+    display: block;
+    font-size: calc(1.9vw + 3px);
+}
+
+.four{
+    padding-top: 120;
+}
+.fourh2{
+    left: 120px;
+    width:  calc(328px + (1022 - 328)*((100vw - 375px) / (1280 - 375)));
+    height:  calc(136px + (136 - 160)*((100vw - 375px) / (1280 - 375)))px;
+    font-family: 'TT Hoves';
+    font-size: calc(34px + (58 - 34)*((100vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    line-height: 85%;
+    
+}
+.glavnoe4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.obzats1{
+    padding-top:  90px;
+    padding-left: calc(30px + (120 - 30)*((100vw - 375px) / (1280 - 375)));
+    width: 400px;
+    height: 210px;
+    top: calc(20px + (90 - 20)*((100vw - 375px) / (1280 - 375)));
+    gap:  calc(10px + (20 - 10)*((100vw - 375px) / (1280 - 375)));
+}
+.obzats2{
+    padding-top:  90px;
+    padding-left: calc(30px + (120 - 30)*((100vw - 375px) / (1280 - 375)));
+    width: 428px;
+    height: 248px;
+
+    gap: 20px;
+}
+.obzats3{
+    padding-top:  90px;
+    width: 400px;
+    height: 248px;
+    gap: 20px;
+    padding-left: calc(30px + (120 - 30)*((100vw - 375px) / (1280 - 375)));
+}
+.obzats4{
+    padding-top:  52px;
+    width: 400px;
+    height: 248px;
+    gap: 20px;
+    padding-left: calc(30px + (120 - 30)*((100vw - 375px) / (1280 - 375)));
+}
+.glavnoe4 h4{
+    font-family: 'TT Hoves';
+    font-size: 27px;
+    font-weight: 600;
+}
+h2 {
+    font-size: calc(34px + (58 - 34) * ((110vw - 375px) / (1280 - 375)));
+    font-weight: 500;
+    margin-bottom: calc(40px + (90 - 40)* ((100vw - 375px) / (1280 -375)));
+    
+    text-transform: uppercase;
+    line-height: 117%;
+ }
+    
+ .infoContainer {
+    display: flex;
+    gap: calc(20px + (51 - 20) * ((100vw - 375px) / (1280 - 375)));
+    flex-wrap: wrap;
+ } 
+    
+ 
+ .infoCard {
+    flex-basis: 250px;
+    flex-grow: 1;
+ }
+ .infoCard img {
+   width: 100%;
+ }
+ 
+ 
+ 
+ .infoBox {
+    flex-basis: 300px;
+    flex-grow: 3;
+ }
+ 
+ h4 {
+    font-size: calc(38px + (48 - 38) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 700;
+    margin-top: auto;
+    margin-bottom: 20px;
+    line-height: 120%;
+ }
+ 
+ .infoBox p {
+   font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+   line-height: 140%;
+   margin-bottom: 60px;
+ }
+  
+   
+ 
+ .legendSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: calc(30px + (40 - 30) * ((100vw - 375px) / (1280 - 375)));
+    column-gap: calc(10px + (90 - 10) * ((100vw - 375px) / (1280 - 375)));
+   
+ }
+ 
+ 
+ .skill img {
+    width: 36px;
+ }
+ 
+ .skill span {
+    display: block;
+    margin-top: 10px;
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+    line-height: 140%;
+ }
+/*.diplominfo{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.diplomtext h2{
+    margin-left: 19px;
+    text-align: start;
+    width: calc(328px + (578 - 328)*((100vw - 375px) / (1280 - 375)));
+    height: calc(120px + (120 - 136)*((100vw - 375px) / (1280 - 375)));
+    font-size: 58px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.diplom{
+    width: 430px;
+    height: 300px;
+}
+.diplomtext {
+    width: calc(328px + (514 - 328)*((100vw - 375px) / (1280 - 375)));
+    height: calc(75px + (114 - 75)*((100vw - 375px) / (1280 - 375)));
+    top: 156px;
+    left: 570px;
+    margin-left: 20px;
+}*/
+.diplom{
+ display: grid;
+ grid-template-columns: 1fr 3fr;
+}
+.diplom img{
+    grid-row: 1/3;
+    align-self: center;
+    max-width: 300px;
+
+
+}
+.diplom h2{
+    margin-bottom: 0;
+}
+.frameBox {
+    border: 2px solid black;
+    padding:calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375))) calc(20px + (52 - 20) * ((100vw - 375px) / (1280 - 375))) calc(23px + (35 - 25) * ((100vw - 375px) / (1280 - 375)));
+    position: relative;
+ 
+ }
+ 
+ 
+ #corner {
+    position: absolute;
+     width: calc(40px + (140 - 40) * ((100vw - 375px) / (1280 - 375)));
+    top: -2px;
+    right: -2px;
+ }
+ 
+ 
+ 
+ .frameBox h3 {
+    margin: 0;
+ }
+ 
+ .lessons {
+    margin-top: calc(24px + (40 - 24) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(23px + (34 - 23) * ((100vw - 375px) / (1280 - 375)));
+    list-style-type: none;
+ }
+ 
+ .lessons li {
+    border-bottom: 1px solid #a1a1a1;
+    padding: 24px 0;
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+ 
+ }
+ 
+ .lessons li:first-child {
+    padding-top: 0;
+ }
+ 
+ .frame button {
+    display: block;
+    margin: 0 auto;
+    
+       width: 328px;
+       padding: 20px 0px;
+       border-radius: 12px ;
+   
+       font-size: 20px;
+       font-weight: 500;
+       line-height: 117%;
+   
+       background: #6E3ABA;
+       color: white;
+       border: 1px solid  #6E3ABA;
+    }
+   
+   
+    .mobile {
+       display: none !important;
+    }
+    
+    @media (max-width: 600px) {
+       .mobile {
+          display: block !important;
+       }
+    
+       .desktop {
+          display: none !important;
+       }
+    
+       .frame button {
+          margin-top: 30px;
+       }
+    
+       .lessons li:last-child {
+          border: 0;
+          padding-bottom: 0;
+       }
+       .blok1 p{
+        width: calc(328px +(450 - 328)*((100vw - 375px) /(1280 - 375)));
+        height: calc(125px +(228 - 125)*((100vw - 375px) /(1280 - 375)));
+    }
+    .blok2 p{
+        width: calc(328px +(450 - 328)*((100vw - 375px) /(1280 - 375)));
+        height: calc(125px +(190 - 125)*((100vw - 375px) /(1280 - 375)));
+    }
+    .blok3 p{
+        width:calc(328px +(432 - 328)*((100vw - 375px) /(1280 - 375)));
+        height: calc(100px +(152 - 100)*((100vw - 375px) /(1280 - 375)));
+    }
+    .blok4 p{
+        width: calc(328px +(477 - 328)*((100vw - 375px) /(1280 - 375)));
+        height: calc(125px +(190 - 125)*((100vw - 375px) /(1280 - 375)));
+    }
+    .blok1, .blok2, .blok3, .blok4 {
+    margin-left:  24px;
+    }
+    
+}
+
+.SalaryHeader {
+    width:calc(328px + (729 - 328) * ((100vw - 376px) / (1280 - 375)));
+    height: calc(160px + (204 - 160) * ((100vw - 376px) / (1280 - 375)));
+    left: 120px;
+
+}
+.SalaryInfo {
+    width:calc(328px + (876 - 328) * ((100vw - 376px) / (1280 - 375)));
+    margin-top: calc(2.2vw + 11.7px);
+}
+
+.VacanciesImg {
+    margin-top:calc(1.8vw + 13.4px);
+}
+
+.VacanciesImg img{
+    width: 100%;
+    height: auto;
+}
+.present{
+    display: flex;
+    flex-wrap: wrap;
+}
+.peresnt_text{
+    width: calc(328px + (520 - 328) * ((100vw - 376px) / (1280 - 375)));
+    height: calc(315px + (224 - 315) * ((100vw - 376px) / (1280 - 375)));
+
+}
+#present{
+    width: calc(350px + (475 - 350) * ((100vw - 376px) / (1280 - 375)));
+    height: calc(248px + (354 - 248) * ((100vw - 376px) / (1280 - 375)));
+    margin-top: calc(20px + (30 - 20) * ((100vw - 376px) / (1280 - 375)));
+    margin-left: 0px;
+}
+ @media (max-width: 600px){
+    .blok2{
+        margin-left: 24px;
+    }
+    .blok4{
+        margin-left: 24px;
+    }
+    .description h2{
+        font-family: 'TT Hoves';
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 40.05px;   
+    }
+    .diplom{
+        grid-template-columns: 1fr;
+    }
+    .diplom img{
+        grid-row: 2/3;
+        width: 100%;
+        justify-self: center;
+    }
+    .peresnt_text{
+        margin-top: 20px;
+    }
+}
+.otziviprofile img{
+    border-radius: 50px;
+}
+.user1, .user2, .user3, img{
+    margin-left: 5px;
+}
+.fio{
+    margin-left: 16px;
+    width: 169px;
+    height: 56px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.otziviprofile{
+    display: flex;
+    flex-direction: row;
+}
+.otziviprofile h5{
+    font-family: 'TT Hoves';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+}
+.otzivi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: calc(20px + (40 - 20) * ((100vw - 376px) / (1280 - 375)));
+
+    
+}
+.otziv h2{
+    width: 838px/*calc(328px + (838 - 328) * ((100vw - 376px) / (1280 - 375)))*/;
+    height: 68px/*calc(80px + (68 - 80) * ((100vw - 376px) / (1280 - 375)))*/;
+}
+.user1{
+    width: calc(328px + (335 - 328) * ((100vw - 376px) / (1280 - 375)));
+    height: calc(484px + (484 - 484) * ((100vw - 376px) / (1280 - 375)));
+    flex-direction: column;
+    background-color: #F0F7FD;
+    margin-right: 30px;
+    border-radius: 12px;
+}
+.user2{
+    width: calc(328px + (335 - 328) * ((100vw - 376px) / (1280 - 375)));
+    height: calc(484px + (484 - 484) * ((100vw - 376px) / (1280 - 375)));
+    flex-direction: column;
+    background-color: #F0F7FD;
+    margin-right: 30px;
+    border-radius: 12px;
+}
+.user3{
+    width: calc(328px + (335 - 328) * ((100vw - 376px) / (1280 - 375)));
+    height: calc(484px + (484 - 484) * ((100vw - 376px) / (1280 - 375)));
+    flex-direction: column;
+    background-color: #F0F7FD;
+    border-radius: 12px;
+}
+.user1 p{
+    margin-left: 15.5px;
+    margin-top: 8px;
+}
+.user2 p{
+
+    margin-left: 15.5px;
+    margin-top: 8px;
+}
+.user3 p{
+    margin-top: 8px;
+    margin-left: 15.5px;
+}
+.vector{
+    margin-top: 54px;
+    margin-left: 15.5px;
+}
+.user1 p, .user2 p, .user3 p {
+    width: 305px; /* Ширина блока */
+    height: 260px; /* Высота блока */
+    text-overflow: ellipsis; /* Добавляет многоточие, если текст не помещается */
+    font-family: 'TT Hoves';
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 29.4px;
+    
+}
+
+
+
+.frameBox {
+    border: 2px solid black;
+    padding:calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375))) calc(20px + (52 - 20) * ((100vw - 375px) / (1280 - 375))) calc(23px + (35 - 25) * ((100vw - 375px) / (1280 - 375)));
+    position: relative;
+ 
+ }
+ 
+ 
+ #corner {
+    position: absolute;
+     width: calc(40px + (140 - 40) * ((100vw - 375px) / (1280 - 375)));
+    top: -2px;
+    right: -2px;
+ }
+ 
+ 
+ 
+ .frameBox h3 {
+    margin: 0;
+ }
+ 
+ .lessons {
+    margin-top: calc(24px + (40 - 24) * ((100vw - 375px) / (1280 - 375)));
+    margin-bottom: calc(23px + (34 - 23) * ((100vw - 375px) / (1280 - 375)));
+    list-style-type: none;
+ }
+ 
+ .lessons li {
+    border-bottom: 1px solid #a1a1a1;
+    padding: 24px 0;
+    font-size: calc(16px + (21 - 16) * ((100vw - 375px) / (1280 - 375)));
+ 
+ }
+ 
+ .lessons li:first-child {
+    padding-top: 0;
+ }
+ 
+ .frame button {
+    display: block;
+    margin: 0 auto;
+    
+       width: 328px;
+       padding: 20px 0px;
+       border-radius: 12px ;
+   
+       font-size: 20px;
+       font-weight: 500;
+       line-height: 117%;
+   
+       background: #6E3ABA;
+       color: white;
+       border: 1px solid  #6E3ABA;
+    }
+   
+   
+    .mobile {
+       display: none !important;
+    }
+    
+    @media (max-width: 600px) {
+       .mobile {
+          display: block !important;
+       }
+    
+       .desktop {
+          display: none !important;
+       }
+    
+       .frame button {
+          margin-top: 30px;
+       }
+    
+       .lessons li:last-child {
+          border: 0;
+          padding-bottom: 0;
+       }
+    }
+    .wrapper {
+        position: fixed;
+        top: 0;
+        left: 0;
+     
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 100vw;
+        height: 100vh;
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+     
+       display: none;
+     }
+     
+     
+     .popUp {
+        background: #f0f7fd;
+        width: calc(326px + (800 - 326) * ((100vw - 375px) / (1280 - 375)));
+        height: 80vh;   
+        border-radius: 12px;
+     
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+     
+
+
+     }
+     .form {
+        width: 320px;
+     }
+     
+     .form h4 {
+        text-transform: uppercase;
+        font-size: 26px;
+        text-align: center;
+     }
+     
+     .form input {
+        display: block;
+        width: 100%;
+     
+        border: 0;
+        border-bottom: 1px solid #a1a1a1;
+        outline: 0;
+        background: transparent;
+     
+        font-size: 18px;
+        line-height: 27px;
+        padding: 10px 0;
+     }
+     
+     
+     .form button {
+        margin-top: 30px;
+     }
+     
+     .thankYouPage {
+        background: #222;
+        width: calc(326px + (800 - 326) * ((100vw - 375px) / (1280 - 375)));
+        height: 80vh;
+        border-radius: 12px;
+     
+        color: white;
+     
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+     
+     .thankYouPage h2 {
+        margin-bottom: 10px;
+     }
